@@ -5,7 +5,7 @@ import './index.css'
 
 
 
-function BookList() {
+function App() {
     return (
         <section className='booklist'>
             <UseStateCounter/>
@@ -14,4 +14,4 @@ function BookList() {
 }
 
 
-ReactDom.render(<BookList />, document.getElementById('root'));
+ReactDom.render(<App />, document.getElementById('root'));
