@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const UseStateCounter = () => {
 
     const [value, setValue] = useState(0);
-    
+
     return (
         <>
             <section style={{ margin: '4rem 0' }}>
